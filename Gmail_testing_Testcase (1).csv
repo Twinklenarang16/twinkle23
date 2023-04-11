@@ -1,0 +1,50 @@
+Test case id,Test Case Name, Description,Test Data,Priority,Precondition,Action,Expected Result,Database Impacted,Actual result
+TC001,,,,,,,,,
+,R1.0_Gmail_listing_post_login,Validate email listing on gmail,"Gmail address for example - 
+twinkle@gmail.com",High,"Gmail account should be logged in
+successfully
+Tc should be generated successfully","1.. Go to the google contacts lab 
+2. Create a group label 
+3. Add contacts to your label 
+Enter the following attributes :-
+Firstname
+Lastname
+Company
+Job title
+Email address
+Phone number
+Notes
+4. Select the label name in the ""to"" field
+5. Send an email to the group
+
+","Mail list should be created successfully.
+Validate the information:
+1. Email address
+2. User should be able to add the contacts to the label
+3. User should be able to successfully create the mail list
+4. User should be able to send the email on the created mail list",Yes,Mail list created successfully
+,,,,,,,,,
+TC002,,,,,,,,,
+,"R1.0_Gmail_compose_new_
+email","Validate if user is able to 
+compose a new mail","Gmail address for example -
+ twinkle@gmail.com",High,"Gmail account should be logged in
+successfully
+Tc should be generated successfully","1. Go to gmail
+2. At the top left, click compose
+3.In the ""to"" field add recipients.
+4. Add the recipients in the ""Cc"" and 
+""Bcc"" fields
+5. Add a subject 
+6. Write your message
+7. At the bottom of the tab click send","Mail should be composed and sent 
+successfuly
+Validate the information:
+1. Email address
+2. User should be able to compose the email
+3. User should be able to add recipients in the ""to"" field
+4. User should be able to add recipients in the ""Cc"" and ""Bcc"" field
+5.User should be able to enter a subject in subjects field
+6. User should be able to write the message
+7. User should be able to send the mail successfully",Yes,"Mail composed and sent 
+successfully"
